@@ -151,7 +151,7 @@ public class memberlist extends AppCompatActivity {
             if(v==null){
                 v=inflater.inflate(R.layout.member_adapter,null);
                 viewHolder = new ViewHolder();
-                viewHolder.imageView= (ImageView) v.findViewById(R.id.imageview);
+                viewHolder.imageView= (ImageView) v.findViewById(R.id.imageView);
                 viewHolder.name= (TextView) v.findViewById(R.id.name);
                 viewHolder.phone= (TextView) v.findViewById(R.id.phone);
                 v.setTag(viewHolder);
