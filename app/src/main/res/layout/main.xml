@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#FFC71C"
+    android:gravity="center"
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:scaleType="centerCrop"
+        android:src="@drawable/large"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.5"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/addm"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#1d1c1c"
+                android:gravity="center"
+                android:padding="30dp"
+                android:paddingRight="15dp"
+                android:text="계정생성"
+                android:textColor="#FFFFFF"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/loginm"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#1d1c1c"
+                android:gravity="center"
+                android:padding="30dp"
+                android:paddingRight="15dp"
+                android:text="로그인"
+                android:textColor="#FFFFFF"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Hello"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
